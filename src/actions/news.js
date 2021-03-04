@@ -11,13 +11,7 @@ import {
   CLEAR_TOP_NEWS,
 } from "./types";
 
-let newsApiKey;
-
-if (process.env.NODE_ENV !== "production") {
-  newsApiKey = "27ed44df19df4acda05a1d8ded16d302";
-} else {
-  newsApiKey = "27ed44df19df4acda05a1d8ded16d302";
-}
+let newsApiKey = "27ed44df19df4acda05a1d8ded16d302";
 
 // Set Theme
 export const setTheme = () => {
